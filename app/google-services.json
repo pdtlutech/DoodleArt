@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "787741438751",
+    "project_id": "magic-doodle-art-glow-drawing",
+    "storage_bucket": "magic-doodle-art-glow-drawing.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787741438751:android:3fe9a97a02ea4fdf30b62a",
+        "android_client_info": {
+          "package_name": "com.example.android.art.glow.drawing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ2RoiBBVqFvmBYr1Ri-mnmfMOkKV6Gvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

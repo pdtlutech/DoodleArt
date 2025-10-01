@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/padding_40dp">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLine1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.072"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="@dimen/width_1dp"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintTop_toBottomOf="@id/guideLine1"
+        app:layout_constraintBottom_toTopOf="@id/guideLine2">
+
+        <com.example.android.art.glow.drawing.custom_view.GlowMandalaView
+            android:id="@+id/drawingView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/background_corner_0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLine2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topController"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="@dimen/width_46dp"
+            android:layout_height="@dimen/height_46dp"
+            android:contentDescription="@string/imageview"
+            android:padding="@dimen/padding_4dp"
+            android:src="@drawable/icon_home"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/newFile"
+            android:layout_width="@dimen/width_46dp"
+            android:layout_height="@dimen/height_46dp"
+            android:contentDescription="@string/imageview"
+            android:padding="@dimen/padding_4dp"
+            android:src="@drawable/icon_new_file"
+            app:layout_constraintEnd_toStartOf="@id/background"
+            app:layout_constraintStart_toEndOf="@id/home"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="@dimen/width_46dp"
+            android:layout_height="@dimen/height_46dp"
+            android:contentDescription="@string/imageview"
+            android:padding="@dimen/padding_4dp"
+            android:src="@drawable/icon_paint_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/symmetricArt"
+            android:layout_width="@dimen/width_46dp"
+            android:layout_height="@dimen/height_46dp"
+            android:contentDescription="@string/imageview"
+            android:padding="@dimen/padding_4dp"
+            android:src="@drawable/icon_symmetry_art"
+            app:layout_constraintEnd_toStartOf="@id/save"
+            app:layout_constraintStart_toEndOf="@id/background"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/save"
+            android:layout_width="@dimen/width_46dp"
+            android:layout_height="@dimen/height_46dp"
+            android:layout_marginEnd="@dimen/margin_20dp"
+            android:contentDescription="@string/imageview"
+            android:padding="@dimen/padding_4dp"
+            android:src="@drawable/icon_save"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/arrowPickBackground"
+            android:layout_width="@dimen/width_20dp"
+            android:layout_height="@dimen/height_20dp"
+            android:contentDescription="@string/imageview"
+            android:src="@drawable/icon_triangle_up"
+            app:layout_constraintBottom_toTopOf="@id/pickBackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/background" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/pickBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_corner_12"
+            android:paddingVertical="@dimen/padding_10dp"
+            app:layout_constraintStart_toStartOf="@id/home"
+            app:layout_constraintTop_toBottomOf="@id/background"
+            tools:ignore="RtlSymmetry">
+
+            <TextView
+                android:id="@+id/currentValueTxt"
+                style="@style/CustomTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_rect_black_trans"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="0"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <SeekBar
+                android:id="@+id/sbProgress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-12dp"
+                android:layout_marginEnd="@dimen/margin_10dp"
+                android:layout_marginRight="-12dp"
+                android:max="100"
+                android:maxHeight="@dimen/height_5dp"
+                android:minHeight="@dimen/height_5dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/background_seekbar_track"
+                android:thumb="@drawable/custom_thumb"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/currentValueTxt" />
+
+            <TextView
+                android:id="@+id/okBtn"
+                style="@style/CustomTextStyleMedium16sp"
+                android:layout_width="@dimen/width_80dp"
+                android:layout_height="@dimen/height_30dp"
+                android:layout_marginEnd="@dimen/margin_10dp"
+                android:background="@drawable/background_corner_30_horizontal"
+                android:gravity="center"
+                android:text="@string/ok"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sbProgress" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/arrowPickSymmetricArts"
+            android:layout_width="@dimen/width_20dp"
+            android:layout_height="@dimen/height_20dp"
+            android:contentDescription="@string/imageview"
+            android:src="@drawable/icon_triangle_up"
+            app:layout_constraintBottom_toTopOf="@id/pickBackground"
+            app:layout_constraintEnd_toEndOf="@id/symmetricArt"
+            app:layout_constraintStart_toStartOf="@id/symmetricArt"
+            app:layout_constraintTop_toBottomOf="@id/background" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/pickSymmetricArts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_20dp"
+            android:background="@drawable/background_corner_12"
+            android:paddingVertical="@dimen/padding_10dp"
+            android:paddingStart="@dimen/padding_10dp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@id/home"
+            app:layout_constraintTop_toBottomOf="@id/background"
+            tools:ignore="RtlSymmetry">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/allSymmetricArts"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:listitem="@layout/item_default_pick" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottomController"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_20dp"
+        android:layout_marginBottom="@dimen/margin_24dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/lines"
+            android:layout_width="@dimen/width_46dp"
+            android:layout_height="@dimen/height_46dp"
+            android:contentDescription="@string/imageview"
+            android:padding="@dimen/padding_4dp"
+            android:src="@drawable/icon_lines"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/eraser"
+            android:layout_width="@dimen/width_46dp"
+            android:layout_height="@dimen/height_46dp"
+            android:contentDescription="@string/imageview"
+            android:padding="@dimen/padding_4dp"
+            android:src="@drawable/icon_eraser_disabled"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/sticker"
+            app:layout_constraintStart_toEndOf="@id/lines" />
+
+        <ImageView
+            android:id="@+id/sticker"
+            android:layout_width="@dimen/width_46dp"
+            android:layout_height="@dimen/height_46dp"
+            android:contentDescription="@string/imageview"
+            android:padding="@dimen/padding_4dp"
+            android:src="@drawable/icon_sticker"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/undo"
+            android:layout_width="@dimen/width_46dp"
+            android:layout_height="@dimen/height_46dp"
+            android:contentDescription="@string/imageview"
+            android:padding="@dimen/padding_4dp"
+            android:src="@drawable/icon_undo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/redo"
+            app:layout_constraintStart_toEndOf="@id/sticker" />
+
+        <ImageView
+            android:id="@+id/redo"
+            android:layout_width="@dimen/width_46dp"
+            android:layout_height="@dimen/height_46dp"
+            android:layout_marginEnd="@dimen/margin_20dp"
+            android:contentDescription="@string/imageview"
+            android:padding="@dimen/padding_4dp"
+            android:src="@drawable/icon_redo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/arrowPickLines"
+            android:layout_width="@dimen/width_20dp"
+            android:layout_height="@dimen/height_20dp"
+            android:contentDescription="@string/imageview"
+            android:src="@drawable/icon_triangle_down"
+            app:layout_constraintBottom_toTopOf="@id/lines"
+            app:layout_constraintEnd_toEndOf="@id/lines"
+            app:layout_constraintStart_toStartOf="@id/lines" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/pickLines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/background_corner_12"
+            android:paddingVertical="@dimen/padding_10dp"
+            android:paddingStart="@dimen/padding_10dp"
+            app:layout_constraintBottom_toTopOf="@id/lines"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="RtlSymmetry">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/allPickLines"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:listitem="@layout/item_default_pick" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/arrowPickStickers"
+            android:layout_width="@dimen/width_20dp"
+            android:layout_height="@dimen/height_20dp"
+            android:contentDescription="@string/imageview"
+            android:src="@drawable/icon_triangle_down"
+            app:layout_constraintBottom_toTopOf="@id/lines"
+            app:layout_constraintEnd_toEndOf="@id/sticker"
+            app:layout_constraintStart_toStartOf="@id/sticker" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/pickStickers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/background_corner_12"
+            android:paddingVertical="@dimen/padding_10dp"
+            android:paddingStart="@dimen/padding_10dp"
+            app:layout_constraintBottom_toTopOf="@id/lines"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="RtlSymmetry">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/allPickStickers"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:listitem="@layout/item_default_pick" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/frBanner"/>
+
+    <FrameLayout
+        android:id="@+id/frBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
