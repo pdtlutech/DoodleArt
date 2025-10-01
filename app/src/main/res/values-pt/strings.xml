@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_intro_title">Modo de arte de simetria</string>
+    <string name="first_intro_description">Crie designs simétricos fascinantes sem esforço com espelhamento automático.</string>
+    <string name="second_intro_title">Vários pincéis brilhantes</string>
+    <string name="second_intro_description">Escolha entre néon, fogo, arco-íris, luz mágica e muito mais.</string>
+    <string name="third_intro_title">Salvar, compartilhar e editar facilmente </string>
+    <string name="third_intro_description">Salve sua arte, edite-a a qualquer momento ou compartilhe instantaneamente nas redes sociais.</string>
+    <string name="next">Próximo</string>
+    <string name="skip">Pular</string>
+    <string name="new_drawing">Novo desenho</string>
+    <string name="empty_description">Você não desenhou nada!</string>
+    <string name="inspirations">Inspirações</string>
+    <string name="my_sketches">Meus esboços</string>
+    <string name="draw_this_now">Desenhe isso agora</string>
+    <string name="saved_successfully">Salvo com sucesso!</string>
+    <string name="saved_description">Quer ir para Meus esboços?</string>
+    <string name="discard">Descartar</string>
+    <string name="save_to_sketch">Salvar em Meu esboço</string>
+    <string name="discard_drawing">Descartar desenho?</string>
+    <string name="undone_progress">Seu progresso será perdido</string>
+    <string name="visit_sketches">Quer ir para Meus esboços?</string>
+    <string name="no">Não</string>
+    <string name="ok">OK</string>
+    <string name="choose_paper_size">Escolha o tamanho do papel</string>
+    <string name="start_drawing">Comece a desenhar</string>
+    <string name="selected">Selecionado</string>
+    <string name="selected_all">Selecionado tudo</string>
+    <string name="waiting">Esperando</string>
+    <string name="progress_title">O progresso está quase pronto</string>
+    <string name="progress_description">Apenas espere alguns segundos</string>
+    <string name="back">Voltar</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="english">Inglês</string>
+    <string name="hindi">hindi</string>
+    <string name="spanish">Espanhol</string>
+    <string name="french">Francês</string>
+    <string name="arabic">árabe</string>
+    <string name="bengali">bengali</string>
+    <string name="russian">russo</string>
+    <string name="portuguese">Português</string>
+    <string name="indonesian">indonésio</string>
+    <string name="german">Alemão</string>
+    <string name="italian">italiano</string>
+    <string name="korean">coreano</string>
+    <string name="language">Linguagem</string>
+</resources>

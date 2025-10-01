@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_intro_title">Mode artistique de symétrie</string>
+    <string name="first_intro_description">Créez sans effort des designs symétriques fascinants grâce à la mise en miroir automatique.</string>
+    <string name="second_intro_title">Divers pinceaux lumineux</string>
+    <string name="second_intro_description">Choisissez parmi le néon, le feu, l\'arc-en-ciel, la lumière magique et bien plus encore.</string>
+    <string name="third_intro_title">Sauvegarde, partage et modification faciles </string>
+    <string name="third_intro_description">Enregistrez votre illustration, modifiez-la à tout moment ou partagez-la instantanément sur les réseaux sociaux.</string>
+    <string name="next">Suivant</string>
+    <string name="skip">Sauter</string>
+    <string name="new_drawing">Nouveau dessin</string>
+    <string name="empty_description">Tu n\'as rien dessiné !</string>
+    <string name="inspirations">Inspirations</string>
+    <string name="my_sketches">Mes croquis</string>
+    <string name="draw_this_now">Dessine ça maintenant</string>
+    <string name="saved_successfully">Enregistré avec succès !</string>
+    <string name="saved_description">Voulez-vous accéder à Mes croquis ?</string>
+    <string name="discard">Jeter</string>
+    <string name="save_to_sketch">Enregistrer dans Mon croquis</string>
+    <string name="discard_drawing">Supprimer le dessin ?</string>
+    <string name="undone_progress">Votre progression sera perdue</string>
+    <string name="visit_sketches">Voulez-vous accéder à Mes croquis ?</string>
+    <string name="no">Non</string>
+    <string name="ok">D\'ACCORD</string>
+    <string name="choose_paper_size">Choisissez le format du papier</string>
+    <string name="start_drawing">Commencer à dessiner</string>
+    <string name="selected">Choisi</string>
+    <string name="selected_all">Tout sélectionné</string>
+    <string name="waiting">En attendant</string>
+    <string name="progress_title">Les progrès sont presque terminés</string>
+    <string name="progress_description">Attends juste quelques secondes</string>
+    <string name="back">Dos</string>
+    <string name="cancel">Annuler</string>
+
+    <string name="english">Anglais</string>
+    <string name="hindi">hindi</string>
+    <string name="spanish">Espagnol</string>
+    <string name="french">Français</string>
+    <string name="arabic">arabe</string>
+    <string name="bengali">bengali</string>
+    <string name="russian">russe</string>
+    <string name="portuguese">portugais</string>
+    <string name="indonesian">indonésien</string>
+    <string name="german">Allemand</string>
+    <string name="italian">italien</string>
+    <string name="korean">coréen</string>
+    <string name="language">Langue</string>
+</resources>

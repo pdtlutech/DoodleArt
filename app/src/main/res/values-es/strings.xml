@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_intro_title">Modo de arte de simetría</string>
+    <string name="first_intro_description">Cree fascinantes diseños simétricos sin esfuerzo con la duplicación automática.</string>
+    <string name="second_intro_title">Varios pinceles brillantes</string>
+    <string name="second_intro_description">Elige entre neón, fuego, arcoíris, luz mágica y más.</string>
+    <string name="third_intro_title">Guarda, comparte y edita fácilmente </string>
+    <string name="third_intro_description">Guarde su obra de arte, edítela en cualquier momento o compártala instantáneamente en las redes sociales.</string>
+    <string name="next">Próximo</string>
+    <string name="skip">Saltar</string>
+    <string name="new_drawing">Nuevo dibujo</string>
+    <string name="empty_description">¡No has dibujado nada!</string>
+    <string name="inspirations">Inspiraciones</string>
+    <string name="my_sketches">mis bocetos</string>
+    <string name="draw_this_now">dibuja esto ahora</string>
+    <string name="saved_successfully">¡Guardado exitosamente!</string>
+    <string name="saved_description">¿Quieres ir a Mis bocetos?</string>
+    <string name="discard">Desechar</string>
+    <string name="save_to_sketch">Guardar en Mi boceto</string>
+    <string name="discard_drawing">¿Descartar dibujo?</string>
+    <string name="undone_progress">Tu progreso se perderá</string>
+    <string name="visit_sketches">¿Quieres ir a Mis bocetos?</string>
+    <string name="no">No</string>
+    <string name="ok">DE ACUERDO</string>
+    <string name="choose_paper_size">Elige el tamaño del papel</string>
+    <string name="start_drawing">Empezar a dibujar</string>
+    <string name="selected">Seleccionado</string>
+    <string name="selected_all">Seleccionado todo</string>
+    <string name="waiting">Espera</string>
+    <string name="progress_title">El progreso casi está hecho.</string>
+    <string name="progress_description">Sólo espera unos segundos.</string>
+    <string name="back">Atrás</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="english">Inglés</string>
+    <string name="hindi">hindi</string>
+    <string name="spanish">Español</string>
+    <string name="french">Francés</string>
+    <string name="arabic">árabe</string>
+    <string name="bengali">bengalí</string>
+    <string name="russian">ruso</string>
+    <string name="portuguese">portugués</string>
+    <string name="indonesian">indonesio</string>
+    <string name="german">Alemán</string>
+    <string name="italian">italiano</string>
+    <string name="korean">coreano</string>
+    <string name="language">Idioma</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_intro_title">Mode Seni Simetri</string>
+    <string name="first_intro_description">Ciptakan desain simetris yang memukau dengan mudah menggunakan pencerminan otomatis.</string>
+    <string name="second_intro_title">Berbagai kuas bercahaya</string>
+    <string name="second_intro_description">Pilih dari neon, api, pelangi, lampu ajaib, dan banyak lagi.</string>
+    <string name="third_intro_title">Simpan, bagikan, dan edit dengan mudah </string>
+    <string name="third_intro_description">Simpan karya seni Anda, edit kapan saja, atau bagikan langsung di media sosial.</string>
+    <string name="next">Berikutnya</string>
+    <string name="skip">Melewati</string>
+    <string name="new_drawing">Gambar baru</string>
+    <string name="empty_description">Anda belum menggambar apa pun!</string>
+    <string name="inspirations">Inspirasi</string>
+    <string name="my_sketches">Sketsa saya</string>
+    <string name="draw_this_now">Gambarlah ini sekarang</string>
+    <string name="saved_successfully">Berhasil disimpan!</string>
+    <string name="saved_description">Apakah Anda ingin pergi ke sketsa saya?</string>
+    <string name="discard">Membuang</string>
+    <string name="save_to_sketch">Simpan ke sketsa saya</string>
+    <string name="discard_drawing">Buang Gambar?</string>
+    <string name="undone_progress">Kemajuan Anda akan hilang</string>
+    <string name="visit_sketches">Apakah Anda ingin pergi ke sketsa saya?</string>
+    <string name="no">TIDAK</string>
+    <string name="ok">OKE</string>
+    <string name="choose_paper_size">Pilih ukuran kertas</string>
+    <string name="start_drawing">Mulai menggambar</string>
+    <string name="selected">Terpilih</string>
+    <string name="selected_all">Dipilih semua</string>
+    <string name="waiting">Menunggu</string>
+    <string name="progress_title">Kemajuannya hampir selesai</string>
+    <string name="progress_description">Tunggu saja beberapa detik</string>
+    <string name="back">Kembali</string>
+    <string name="cancel">Membatalkan</string>
+
+    <string name="english">Bahasa inggris</string>
+    <string name="hindi">Hindi</string>
+    <string name="spanish">Spanyol</string>
+    <string name="french">Perancis</string>
+    <string name="arabic">Arab</string>
+    <string name="bengali">Benggala</string>
+    <string name="russian">Rusia</string>
+    <string name="portuguese">Portugis</string>
+    <string name="indonesian">Indonesia</string>
+    <string name="german">Jerman</string>
+    <string name="italian">Italia</string>
+    <string name="korean">Korea</string>
+    <string name="language">Bahasa</string>
+</resources>

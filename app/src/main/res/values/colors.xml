@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="black_0_6">#99000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+   <!--    custom-->
+    <color name="transparent">#00FFFFFF</color>
+    <color name="endPurple">#4E2AA3</color>
+    <color name="defaultBackground">#292929</color>
+    <color name="lighterDefaultBackground">#444444</color>
+    <color name="gray">#4A4A4A</color>
+    <color name="lightGray">#6F6F6F</color>
+    <color name="customGray">#A0A0A0</color>
+    <color name="lightOrange">#FFD438</color>
+    <color name="green">#92FF3F</color>
+    <color name="progressBar">#502CA4</color>
+
+    <!--    day-->
+    <color name="day_item">#E0D5FF</color>
+
+   <!--    custom color-->
+    <color name="customBlack">#0E0E0E</color>
+    <color name="customDarkGreen">#002516</color>
+    <color name="customBrown">#322600</color>
+    <color name="customDarkBlue">#000C3C</color>
+    <color name="customPurple">#180031</color>
+    <color name="customRed">#2E0000</color>
+    <color name="customPink">#410024</color>
+
+    <!--    line color-->
+    <color name="lineBlue">#00DEFE</color>
+    <color name="linePink">#FF8183</color>
+    <color name="lineDarkGreen">#87CA69</color>
+    <color name="lineDarkYellow">#FFD438</color>
+    <color name="lineRed">#FE4F31</color>
+    <color name="lineDarkPurple">#9E89FE</color>
+    <color name="lineCyan">#9DD7D8</color>
+    <color name="lineGreen">#B9F664</color>
+    <color name="lineYellow">#FDFE82</color>
+    <color name="linePurple">#D4A2FF</color>
+    <color name="lineSkin">#FFD8AB</color>
+    <color name="lineOrange">#FE9E31</color>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/width_1dp"
+    android:orientation="vertical">
+
+    <com.example.colorpicker.HueSlider
+        android:id="@+id/hueSlider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.example.colorpicker.ColorPicker
+        android:id="@+id/colorPickerView"
+        android:layout_marginTop="@dimen/margin_8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hueSlider" />
+    
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/colorPickerView"
+        app:layout_constraintStart_toStartOf="@id/colorPickerView"
+        app:layout_constraintEnd_toEndOf="@id/colorPickerView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+            
+        <TextView
+            android:id="@+id/cancelBtn"
+            android:text="@string/dialog_cancel"
+            style="@style/CustomTextStyleMedium16sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_width="@dimen/width_120dp"
+            android:background="@drawable/background_corner_30"
+            android:backgroundTint="#2E2E2E"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="@dimen/height_50dp" />
+
+        <LinearLayout
+            android:id="@+id/okBtn"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="@dimen/width_120dp"
+            android:background="@drawable/background_corner_30"
+            android:backgroundTint="#4A4A4A"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="@dimen/height_50dp" >
+
+            <ImageView
+                android:id="@+id/selectedColor"
+                android:contentDescription="@string/imageview"
+                android:background="@drawable/background_corner_6"
+                android:layout_width="@dimen/width_50dp"
+                android:layout_height="@dimen/height_20dp"
+                android:layout_marginEnd="@dimen/margin_10dp"/>
+
+            <TextView
+                android:text="@string/dialog_ok"
+                style="@style/CustomTextStyleMedium16sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

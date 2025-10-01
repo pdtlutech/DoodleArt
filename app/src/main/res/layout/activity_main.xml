@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/btnLanguage"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginHorizontal="16dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_english"
+        app:layout_constraintBottom_toBottomOf="@id/switchLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/switchLayout"
+        app:layout_constraintTop_toTopOf="@id/switchLayout" />
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginHorizontal="16dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/icon_app_logo"
+        app:layout_constraintBottom_toBottomOf="@id/switchLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/switchLayout"
+        app:layout_constraintTop_toTopOf="@id/switchLayout" />
+
+    <LinearLayout
+        android:id="@+id/switchLayout"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/height_56dp"
+        android:layout_marginTop="@dimen/margin_40dp"
+        android:background="@drawable/background_corner_30"
+        android:backgroundTint="@color/gray"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_6dp"
+        app:layout_constraintEnd_toStartOf="@id/btnLanguage"
+        app:layout_constraintStart_toEndOf="@id/imgLogo"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/inspiration"
+            style="@style/CustomTextStyle16spBold"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/margin_3dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_corner_30"
+            android:backgroundTint="@color/lightGray"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/inspirations"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/sketches"
+            style="@style/CustomTextStyle16sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_3dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_corner_30"
+            android:backgroundTint="@color/transparent"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/my_sketches"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <ScrollView
+        app:layout_constraintTop_toBottomOf="@+id/switchLayout"
+        app:layout_constraintBottom_toTopOf="@id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/smallLayout"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/margin_12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp" />
+
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/smallLayout" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <FrameLayout
+        android:id="@+id/line"
+        app:layout_constraintBottom_toTopOf="@id/frBanner"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"/>
+    <FrameLayout
+        android:id="@+id/frBanner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

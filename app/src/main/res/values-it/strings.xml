@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_intro_title">Modalità artistica simmetria</string>
+    <string name="first_intro_description">Crea affascinanti disegni simmetrici senza sforzo con il mirroring automatico.</string>
+    <string name="second_intro_title">Vari pennelli luminosi</string>
+    <string name="second_intro_description">Scegli tra neon, fuoco, arcobaleno, luce magica e altro ancora.</string>
+    <string name="third_intro_title">Salva, condividi e modifica facilmente </string>
+    <string name="third_intro_description">Salva la tua opera d\'arte, modificala in qualsiasi momento o condividila istantaneamente sui social media.</string>
+    <string name="next">Prossimo</string>
+    <string name="skip">Saltare</string>
+    <string name="new_drawing">Nuovo disegno</string>
+    <string name="empty_description">Non hai disegnato nulla!</string>
+    <string name="inspirations">Ispirazioni</string>
+    <string name="my_sketches">I miei schizzi</string>
+    <string name="draw_this_now">Disegna questo adesso</string>
+    <string name="saved_successfully">Salvato con successo!</string>
+    <string name="saved_description">Vuoi andare ai Miei schizzi?</string>
+    <string name="discard">Scartare</string>
+    <string name="save_to_sketch">Salva nel mio schizzo</string>
+    <string name="discard_drawing">Eliminare il disegno?</string>
+    <string name="undone_progress">I tuoi progressi andranno persi</string>
+    <string name="visit_sketches">Vuoi andare ai Miei schizzi?</string>
+    <string name="no">NO</string>
+    <string name="ok">OK</string>
+    <string name="choose_paper_size">Scegli il formato della carta</string>
+    <string name="start_drawing">Inizia a disegnare</string>
+    <string name="selected">Selezionato</string>
+    <string name="selected_all">Selezionato tutto</string>
+    <string name="waiting">In attesa</string>
+    <string name="progress_title">Il progresso è quasi finito</string>
+    <string name="progress_description">Aspetta solo qualche secondo</string>
+    <string name="back">Indietro</string>
+    <string name="cancel">Cancellare</string>
+
+    <string name="english">Inglese</string>
+    <string name="hindi">hindi</string>
+    <string name="spanish">spagnolo</string>
+    <string name="french">francese</string>
+    <string name="arabic">arabo</string>
+    <string name="bengali">bengalese</string>
+    <string name="russian">russo</string>
+    <string name="portuguese">portoghese</string>
+    <string name="indonesian">indonesiano</string>
+    <string name="german">tedesco</string>
+    <string name="italian">Italiano</string>
+    <string name="korean">coreano</string>
+    <string name="language">Lingua</string>
+</resources>

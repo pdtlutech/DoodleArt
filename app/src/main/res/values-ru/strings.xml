@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_intro_title">Художественный режим «Симметрия»</string>
+    <string name="first_intro_description">С легкостью создавайте завораживающие симметричные конструкции с помощью автоматического зеркального отображения.</string>
+    <string name="second_intro_title">Различные светящиеся кисти</string>
+    <string name="second_intro_description">Выбирайте неон, огонь, радугу, волшебный свет и многое другое.</string>
+    <string name="third_intro_title">Легко сохранять, делиться и редактировать </string>
+    <string name="third_intro_description">Сохраняйте свои работы, редактируйте их в любое время или мгновенно делитесь ими в социальных сетях.</string>
+    <string name="next">Следующий</string>
+    <string name="skip">Пропускать</string>
+    <string name="new_drawing">Новый рисунок</string>
+    <string name="empty_description">Ты ничего не нарисовал!</string>
+    <string name="inspirations">Вдохновение</string>
+    <string name="my_sketches">Мои эскизы</string>
+    <string name="draw_this_now">Нарисуй это сейчас</string>
+    <string name="saved_successfully">Сохранено успешно!</string>
+    <string name="saved_description">Хотите перейти в Мои зарисовки?</string>
+    <string name="discard">Отказаться</string>
+    <string name="save_to_sketch">Сохранить в Мой эскиз</string>
+    <string name="discard_drawing">Отменить рисунок?</string>
+    <string name="undone_progress">Ваш прогресс будет потерян</string>
+    <string name="visit_sketches">Хотите перейти в Мои зарисовки?</string>
+    <string name="no">Нет</string>
+    <string name="ok">ХОРОШО</string>
+    <string name="choose_paper_size">Выберите размер бумаги</string>
+    <string name="start_drawing">Начать рисовать</string>
+    <string name="selected">Выбрано</string>
+    <string name="selected_all">Выбрано все</string>
+    <string name="waiting">Ожидающий</string>
+    <string name="progress_title">Прогресс почти завершен</string>
+    <string name="progress_description">Просто подождите несколько секунд</string>
+    <string name="back">Назад</string>
+    <string name="cancel">Отмена</string>
+
+    <string name="english">Английский</string>
+    <string name="hindi">хинди</string>
+    <string name="spanish">испанский</string>
+    <string name="french">Французский</string>
+    <string name="arabic">арабский</string>
+    <string name="bengali">Бенгальский</string>
+    <string name="russian">Русский</string>
+    <string name="portuguese">португальский</string>
+    <string name="indonesian">индонезийский</string>
+    <string name="german">немецкий</string>
+    <string name="italian">итальянский</string>
+    <string name="korean">корейский</string>
+    <string name="language">Язык</string>
+</resources>

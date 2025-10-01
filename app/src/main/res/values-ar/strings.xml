@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adjust_token_key" translatable="false">jrajke4weh34</string>
+    <string name="admob_id" translatable="false">كاليفورنيا-التطبيق-حانة-6457899622273702~9911476580</string>
+    <string name="facebook_id" translatable="false">2451044068562966</string>
+    <string name="facebook_id_token" translatable="false">276c35bbf7880a741564d0f2b5c1f255</string>
+
+    <string name="app_name" translatable="false">Magic Doodle: Art Glow Drawing</string>
+
+    <string name="first_intro_title">وضع الفن التماثل</string>
+    <string name="first_intro_description">قم بإنشاء تصميمات متناظرة رائعة دون عناء باستخدام خاصية النسخ التلقائي.</string>
+    <string name="second_intro_title">فرش متوهجة مختلفة</string>
+    <string name="second_intro_description">اختر من بين النيون والنار وقوس قزح والضوء السحري والمزيد.</string>
+    <string name="third_intro_title">سهولة الحفظ والمشاركة والتحرير </string>
+    <string name="third_intro_description">احفظ عملك الفني، أو قم بتحريره في أي وقت، أو شاركه على الفور على وسائل التواصل الاجتماعي.</string>
+    <string name="next">التالي</string>
+    <string name="skip">يتخطى</string>
+    <string name="new_drawing">رسم جديد</string>
+    <string name="empty_description">أنت لم ترسم أي شيء!</string>
+    <string name="inspirations">الإلهام</string>
+    <string name="my_sketches">رسوماتي</string>
+    <string name="draw_this_now">ارسم هذا الآن</string>
+    <string name="saved_successfully">تم الحفظ بنجاح!</string>
+    <string name="saved_description">هل تريد الذهاب إلى رسوماتي؟</string>
+    <string name="discard">ينبذ</string>
+    <string name="save_to_sketch">حفظ في الرسم الخاص بي</string>
+    <string name="discard_drawing">هل تريد تجاهل الرسم؟</string>
+    <string name="undone_progress">سيتم فقدان التقدم المحرز الخاص بك</string>
+    <string name="visit_sketches">هل تريد الذهاب إلى رسوماتي؟</string>
+    <string name="no">لا</string>
+    <string name="ok">نعم</string>
+    <string name="choose_paper_size">اختر حجم الورق</string>
+    <string name="start_drawing">ابدأ الرسم</string>
+    <string name="selected">مختارة</string>
+    <string name="selected_all">تم تحديد الكل</string>
+    <string name="waiting">منتظر</string>
+    <string name="progress_title">لقد تم التقدم تقريبًا</string>
+    <string name="progress_description">فقط انتظر بضع ثوان</string>
+    <string name="back">خلف</string>
+    <string name="cancel">يلغي</string>
+
+    <string name="english">إنجليزي</string>
+    <string name="hindi">الهندية</string>
+    <string name="spanish">الأسبانية</string>
+    <string name="french">فرنسي</string>
+    <string name="arabic">عربي</string>
+    <string name="bengali">البنغالية</string>
+    <string name="russian">الروسية</string>
+    <string name="portuguese">البرتغالية</string>
+    <string name="indonesian">الاندونيسية</string>
+    <string name="german">الألمانية</string>
+    <string name="italian">ايطالي</string>
+    <string name="korean">كوري</string>
+    <string name="language">لغة</string>
+</resources>

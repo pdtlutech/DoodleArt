@@ -1,0 +1,55 @@
+<resources>
+    <string name="adjust_token_key" translatable="false">jrajke4weh34</string>
+    <string name="admob_id" translatable="false">ca-app-pub-6457899622273702~9911476580</string>
+    <string name="facebook_id" translatable="false">2451044068562966</string>
+    <string name="facebook_id_token" translatable="false">276c35bbf7880a741564d0f2b5c1f255</string>
+
+    <string name="app_name" translatable="false">Magic Doodle: Art Glow Drawing</string>
+    <string name="imageview" translatable="false">imageView</string>
+
+    <string name="first_intro_title">Symmetry Art Mode</string>
+    <string name="first_intro_description">Create mesmerizing symmetrical designs effortlessly with automatic mirroring.</string>
+    <string name="second_intro_title">Various glowing brushes</string>
+    <string name="second_intro_description">Choose from neon, fire, rainbow, magic light, and more.</string>
+    <string name="third_intro_title">Easy save, share and edit </string>
+    <string name="third_intro_description">Save your artwork, edit it anytime, or share instantly on social media.</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="new_drawing">New drawing</string>
+    <string name="empty_description">You haven’t draw anything!</string>
+    <string name="inspirations">Inspirations</string>
+    <string name="my_sketches">My sketches</string>
+    <string name="draw_this_now">Draw this now</string>
+    <string name="saved_successfully">Saved successfully!</string>
+    <string name="saved_description">Do you want to go to My sketches?</string>
+    <string name="discard">Discard</string>
+    <string name="save_to_sketch">Save to My sketch</string>
+    <string name="discard_drawing">Discard Drawing?</string>
+    <string name="undone_progress">Your progress will be lost</string>
+    <string name="visit_sketches">Do you want to go to My sketches?</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="waiting">Waiting</string>
+    <string name="choose_paper_size">Choose paper size</string>
+    <string name="start_drawing">Start drawing</string>
+    <string name="selected">Selected</string>
+    <string name="selected_all">Selected all</string>
+    <string name="progress_title">The progress is almost done</string>
+    <string name="progress_description">Just wait for a few seconds</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="spanish">Spanish</string>
+    <string name="french">French</string>
+    <string name="arabic">Arabic</string>
+    <string name="bengali">Bengali</string>
+    <string name="russian">Russian</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="indonesian">Indonesian</string>
+    <string name="german">German</string>
+    <string name="italian">Italian</string>
+    <string name="korean">Korean</string>
+    <string name="language">Language</string>
+</resources>

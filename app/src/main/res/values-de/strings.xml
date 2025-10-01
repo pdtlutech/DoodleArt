@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_intro_title">Symmetrie-Kunstmodus</string>
+    <string name="first_intro_description">Erstellen Sie mit der automatischen Spiegelung mühelos faszinierende symmetrische Designs.</string>
+    <string name="second_intro_title">Verschiedene leuchtende Pinsel</string>
+    <string name="second_intro_description">Wählen Sie zwischen Neon, Feuer, Regenbogen, magischem Licht und mehr.</string>
+    <string name="third_intro_title">Einfaches Speichern, Teilen und Bearbeiten </string>
+    <string name="third_intro_description">Speichern Sie Ihr Kunstwerk, bearbeiten Sie es jederzeit oder teilen Sie es sofort in sozialen Medien.</string>
+    <string name="next">Nächste</string>
+    <string name="skip">Überspringen</string>
+    <string name="new_drawing">Neue Zeichnung</string>
+    <string name="empty_description">Du hast nichts gezeichnet!</string>
+    <string name="inspirations">Inspirationen</string>
+    <string name="my_sketches">Meine Skizzen</string>
+    <string name="draw_this_now">Zeichne das jetzt</string>
+    <string name="saved_successfully">Erfolgreich gespeichert!</string>
+    <string name="saved_description">Möchten Sie zu „Meine Skizzen“ gehen?</string>
+    <string name="discard">Verwerfen</string>
+    <string name="save_to_sketch">In „Meine Skizze“ speichern</string>
+    <string name="discard_drawing">Zeichnung verwerfen?</string>
+    <string name="undone_progress">Ihr Fortschritt geht verloren</string>
+    <string name="visit_sketches">Möchten Sie zu „Meine Skizzen“ gehen?</string>
+    <string name="no">NEIN</string>
+    <string name="ok">OK</string>
+    <string name="choose_paper_size">Wählen Sie das Papierformat</string>
+    <string name="start_drawing">Beginnen Sie mit dem Zeichnen</string>
+    <string name="selected">Ausgewählt</string>
+    <string name="selected_all">Alles ausgewählt</string>
+    <string name="waiting">Warten</string>
+    <string name="progress_title">Der Fortschritt ist fast abgeschlossen</string>
+    <string name="progress_description">Warten Sie einfach ein paar Sekunden</string>
+    <string name="back">Zurück</string>
+    <string name="cancel">Stornieren</string>
+
+    <string name="english">Englisch</string>
+    <string name="hindi">Hindi</string>
+    <string name="spanish">Spanisch</string>
+    <string name="french">Französisch</string>
+    <string name="arabic">Arabisch</string>
+    <string name="bengali">Bengali</string>
+    <string name="russian">Russisch</string>
+    <string name="portuguese">Portugiesisch</string>
+    <string name="indonesian">Indonesisch</string>
+    <string name="german">Deutsch</string>
+    <string name="italian">Italienisch</string>
+    <string name="korean">Koreanisch</string>
+    <string name="language">Sprache</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_intro_title">প্রতিসাম্য শিল্প মোড</string>
+    <string name="first_intro_description">স্বয়ংক্রিয় মিররিং সহ অনায়াসে মন্ত্রমুগ্ধকর প্রতিসম ডিজাইন তৈরি করুন।</string>
+    <string name="second_intro_title">বিভিন্ন উজ্জ্বল ব্রাশ</string>
+    <string name="second_intro_description">নিয়ন, আগুন, রংধনু, জাদু আলো এবং আরও অনেক কিছু থেকে বেছে নিন।</string>
+    <string name="third_intro_title">সহজ সংরক্ষণ, ভাগ এবং সম্পাদনা </string>
+    <string name="third_intro_description">আপনার আর্টওয়ার্ক সংরক্ষণ করুন, যে কোনো সময় এটি সম্পাদনা করুন, বা সামাজিক মিডিয়াতে তাত্ক্ষণিকভাবে ভাগ করুন৷</string>
+    <string name="next">পরবর্তী</string>
+    <string name="skip">এড়িয়ে যান</string>
+    <string name="new_drawing">নতুন অঙ্কন</string>
+    <string name="empty_description">তুমি কিছু আঁকেনি!</string>
+    <string name="inspirations">অনুপ্রেরণা</string>
+    <string name="my_sketches">আমার স্কেচ</string>
+    <string name="draw_this_now">এখন এটি আঁকুন</string>
+    <string name="saved_successfully">সফলভাবে সংরক্ষিত!</string>
+    <string name="saved_description">আপনি আমার স্কেচ যেতে চান?</string>
+    <string name="discard">বাতিল করুন</string>
+    <string name="save_to_sketch">আমার স্কেচ সংরক্ষণ করুন</string>
+    <string name="discard_drawing">অঙ্কন বাতিল করবেন?</string>
+    <string name="undone_progress">আপনার অগ্রগতি হারিয়ে যাবে</string>
+    <string name="visit_sketches">আপনি আমার স্কেচ যেতে চান?</string>
+    <string name="no">না</string>
+    <string name="ok">ঠিক আছে</string>
+    <string name="choose_paper_size">কাগজের আকার চয়ন করুন</string>
+    <string name="start_drawing">আঁকা শুরু করুন</string>
+    <string name="selected">নির্বাচিত</string>
+    <string name="selected_all">সব নির্বাচন</string>
+    <string name="waiting">অপেক্ষা করছে</string>
+    <string name="progress_title">অগ্রগতি প্রায় শেষ</string>
+    <string name="progress_description">মাত্র কয়েক সেকেন্ড অপেক্ষা করুন</string>
+    <string name="back">ফিরে</string>
+    <string name="cancel">বাতিল করুন</string>
+
+    <string name="english">ইংরেজি</string>
+    <string name="hindi">হিন্দি</string>
+    <string name="spanish">স্প্যানিশ</string>
+    <string name="french">ফরাসি</string>
+    <string name="arabic">আরবি</string>
+    <string name="bengali">বাংলা</string>
+    <string name="russian">রাশিয়ান</string>
+    <string name="portuguese">পর্তুগিজ</string>
+    <string name="indonesian">ইন্দোনেশিয়ান</string>
+    <string name="german">জার্মান</string>
+    <string name="italian">ইতালীয়</string>
+    <string name="korean">কোরিয়ান</string>
+    <string name="language">ভাষা</string>
+</resources>
